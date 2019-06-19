@@ -1,4 +1,3 @@
-addpath 'C:\Users\ywwang\Documents\MATLAB\spm12';
 TR = .72;
 [filelist,flag] = spm_select();
 % data_pts = spm_get_data(filelist,[30 20 30]'); % for psy221e data
