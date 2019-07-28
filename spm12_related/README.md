@@ -7,6 +7,7 @@ See below for [simple code segments](#seg)
 
 `check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram  
 `fft_plot(X, Fs)` plot Fourier transform of time series X, Fs = 1/TR Hz
+`group_simple` template for loop thru subjects and run spm12 batch  
 
 <a name="seg"></a>
 ## Code segments
