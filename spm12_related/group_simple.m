@@ -4,23 +4,18 @@
 spm('defaults','fmri');
 spm_jobman('initcfg');
 
-upperdir = ''; % revise here
-
 % set up for jobs
 clear matlabbatch;
 
-sidlst = []; % fill in subject IDs
-% I use 4 digit numbers as folder names
+sidlst = []; % fill in subject ID numbers; I use 4 digits as folder names
+% sidlst = {}; % or, fill in folder names, eg. {'0001' '0002'} 
 
 for sbj=1:length(sidlst)
-    sid = num2str(sidlst(sbj), '%04i'); % generate folder name
-    run_n = sbj; % revise it according to your design
-    
-    % copy and paste template matlabbatch created by batch editor 
+
+    % copy and paste template batch code created by batch editor 
     % replace the index with run_n, eg. matlabbatch{run_n}
-    
+    % and change run_n based on your design
+
 end % end of loop thru subject folders
 
 spm_jobman('run',matlabbatch);
-
-% movefile(['.nii'], target_dir); % move the output nii files to the target directories
