@@ -1,5 +1,6 @@
 % note: if you would like to create batch scripts for each subject, 
 % use group_batch.m instead.
+% exmaple adoptation: https://github.com/ywwang-notes/Personal-Projects/blob/master/group_L1.m
 
 spm('defaults','fmri');
 spm_jobman('initcfg');
