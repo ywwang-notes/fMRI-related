@@ -3,12 +3,11 @@ Remember to `addpath spm12_folder` first (replace `spm12_folder` with the actual
 
 ## Table of Contents
 
-[Quick reference](#quick)  
+Quick reference for [code segments]((#quick)    
 `check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram  
 `fft_plot(X, Fs)` plot Fourier transform of time series X, Fs = 1/TR Hz
 
-## Quick reference
-<a name="quick"></a>
+## Code segments <a name="quick"></a>
 
 * DICOM header
 ```matlab
