@@ -5,7 +5,7 @@ For matlab, remember to `addpath spm12_folder` first (replace spm12_folder with 
 
 ## DICOM header
 
-```matlab
+```Matlab
 hdr = spm_dicom_headers('filename');
 ```
 
