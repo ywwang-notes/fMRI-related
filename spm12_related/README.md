@@ -11,7 +11,7 @@ hdr = spm_dicom_headers('filename');
 
 ## Read and display 3D data
 
-```m
+```matlab
 filename = spm_select();
 V= spm_vol(filename);
 dat = spm_read_vols(V);
