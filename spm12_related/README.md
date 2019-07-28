@@ -1,16 +1,14 @@
 Scripts in this folder requires spm12. 
 For matlab, remember to `addpath spm12_folder` first (replace spm12_folder with the actual spm12 path).
 
-# Simple codes
+## Quick reference
 
-## DICOM header
-
+* DICOM header
 ```matlab
 hdr = spm_dicom_headers('filename');
 ```
 
-## Read and display 3D data
-
+* Read and display 3D data
 ```matlab
 filename = spm_select();
 V= spm_vol(filename);
@@ -23,8 +21,7 @@ vis3d(dat) % available here: https://www.mathworks.com/matlabcentral/fileexchang
 
 ```
 
-## Read time series or spatial cross-cut
-
+* Read time series or spatial cross-cut
 ```matlab
 [filelist1,flag] = spm_select();
 timeseries1 = spm_get_data(filelist1, [30 30 30]');
