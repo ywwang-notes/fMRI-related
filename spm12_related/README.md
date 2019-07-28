@@ -5,13 +5,13 @@ For matlab, remember to `addpath spm12_folder` first (replace spm12_folder with 
 
 ## DICOM header
 
-```
+```m
 hdr = spm_dicom_headers('filename');
 ```
 
 ## Read and display 3D data
 
-```Matlab
+```m
 filename = spm_select();
 V= spm_vol(filename);
 dat = spm_read_vols(V);
@@ -25,7 +25,7 @@ vis3d(dat) % available here: https://www.mathworks.com/matlabcentral/fileexchang
 
 ## Read time series or spatial cross-cut
 
-```Matlab
+```m
 [filelist1,flag] = spm_select();
 timeseries1 = spm_get_data(filelist1, [30 30 30]');
 along_x = [1:91;30*ones(1,91);30*ones(1,91)]; 
