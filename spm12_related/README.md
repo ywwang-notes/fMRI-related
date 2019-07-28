@@ -19,7 +19,7 @@ size(dat)
 figure;
 imagesc(squeeze(dat(40,:,:)), [-.3557 .9849]);
 colormap('gray');
-vis3d(dat) # available here: https://www.mathworks.com/matlabcentral/fileexchange/37268-3d-volume-visualization?s_tid=FX_rc2_behav
+vis3d(dat) % available here: https://www.mathworks.com/matlabcentral/fileexchange/37268-3d-volume-visualization?s_tid=FX_rc2_behav
 
 ```
 
