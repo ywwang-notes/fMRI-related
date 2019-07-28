@@ -1,6 +1,10 @@
 Scripts in this folder requires [spm12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/). 
 Remember to `addpath spm12_folder` first (replace `spm12_folder` with the actual spm12 path).
 
+## Table of Contents
+
+`check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram. 
+
 ## Quick reference
 
 * DICOM header
