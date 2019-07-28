@@ -3,7 +3,7 @@ Remember to `addpath spm12_folder` first (replace `spm12_folder` with the actual
 
 ## Table of Contents
 
-`check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram. 
+`check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram  
 `fft_plot(X, Fs)` plot Fourier transform of time series X, Fs = 1/TR Hz
 
 ## Quick reference
