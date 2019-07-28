@@ -13,7 +13,7 @@ sidlst = [];
 % I use 4 digit numbers as folder names
 
 for sbj=1:length(sidlst)
-    sid = num2str(sidlst(sbj), '%04i'); % revise here
+    sid = num2str(sidlst(sbj), '%04i'); % generate folder name
     run_n = sbj; % revise it according to your design
     
     % copy and paste template matlabbatch created by batch editor 
