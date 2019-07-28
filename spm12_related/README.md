@@ -25,7 +25,7 @@ vis3d(dat) % available here: https://www.mathworks.com/matlabcentral/fileexchang
 
 ## Read time series or spatial cross-cut
 
-```m
+```r
 [filelist1,flag] = spm_select();
 timeseries1 = spm_get_data(filelist1, [30 30 30]');
 along_x = [1:91;30*ones(1,91);30*ones(1,91)]; 
