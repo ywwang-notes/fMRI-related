@@ -9,7 +9,7 @@ upperdir = ''; % revise here
 % set up for jobs
 clear matlabbatch;
 
-sidlst = [];
+sidlst = []; % fill in subject IDs
 % I use 4 digit numbers as folder names
 
 for sbj=1:length(sidlst)
