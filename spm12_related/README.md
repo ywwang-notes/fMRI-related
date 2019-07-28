@@ -7,7 +7,8 @@ Quick reference for [code segments](#quick)
 `check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram  
 `fft_plot(X, Fs)` plot Fourier transform of time series X, Fs = 1/TR Hz
 
-## Code segments <a name="quick"></a>
+<a name="quick"></a>
+## Code segments
 
 * DICOM header
 ```matlab
