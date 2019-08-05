@@ -10,4 +10,4 @@
 
 ## 2nd level analysis SPM.mat
 
-`spm_contrasts.m` How con.nii and SPM.nii created? Search for `Write inference SPM/PPM` in this script  
+`spm_contrasts.m` How con.nii and SPM.nii files are created? Search for `Write inference SPM/PPM` in this script  
