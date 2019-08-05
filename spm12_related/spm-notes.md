@@ -6,6 +6,7 @@
 `SPM.Sess(b).U` event vectors of session b  
 
 ### after model estimation
+See `spm_spm.m`  
 `SPM.VBeta` filename (fname) and meaning (descrip) of each beta  
 
 ## 2nd level analysis SPM.mat
