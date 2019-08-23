@@ -6,7 +6,7 @@
 
 ### after model specification
 `SPM.xY.P(n,:)` file name of the n-th volumn  
-`SPM.xX.X(a:b,c)` predicted BOLD at TRs a:b for beta c
+`SPM.xX.X(a:b,c)` predicted BOLD at TRs a:b for beta c  
 `SPM.nscan` number of scans in each session  
 `SPM.Sess(b).U` event vectors of session b  
 
