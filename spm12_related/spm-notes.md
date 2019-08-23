@@ -1,6 +1,6 @@
 ## Misc.
 
-* coordinate systems of ITK-SNAP, image display, and `spm_get_data` are consistent. 
+* coordinate systems of ITK-SNAP, Display (of spm12 UI), and `spm_get_data` are consistent. 
 
 ## 1st leve analysis SPM.mat structure
 
