@@ -5,6 +5,7 @@
 ## 1st leve analysis SPM.mat structure
 
 ### after model specification
+`SPM.xM` implicit and explicit masks
 `SPM.xY.P(n,:)` file name of the n-th volumn  
 `SPM.xX.X(a:b,c)` predicted BOLD at TRs a:b for beta c  
 `SPM.nscan` number of scans in each session  
