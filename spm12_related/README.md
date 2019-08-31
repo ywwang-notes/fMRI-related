@@ -39,4 +39,4 @@ spatial1 = spm_get_data(filelist1(1,:), along_x);
 ```
 
 ## Also useful
-[Create ROI masks from spm12 atlas] https://github.com/ywwang-notes/Public-Code-collection/blob/master/matlab/generate_masks_from_atlas.m
+[Create ROI masks from spm12 atlas](https://github.com/ywwang-notes/Public-Code-collection/blob/master/matlab/generate_masks_from_atlas.m)
