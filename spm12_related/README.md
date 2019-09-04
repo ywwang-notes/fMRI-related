@@ -7,7 +7,7 @@ See below for [simple code segments](#seg)
 `check_time_series` extract time series at specified coordinates; plot Fourier transform and histogram  
 `fft_plot(X, Fs)` plot Fourier transform of time series X, Fs = 1/TR Hz  
 `group_simple` template for looping thru subjects and run spm12 batch  
-`query_beta(ev, SPM)` return index of beta files that contain substring `ev`. Need to load SPM before function call.  
+`query_beta(ev, SPM)` return index of beta files that contain substring `ev`. Need to load SPM.mat before function call.  
 
 <a name="seg"></a>
 ## Code segments
