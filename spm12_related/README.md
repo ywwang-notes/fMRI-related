@@ -10,7 +10,7 @@ See below for [simple code segments](#seg)
 `query_beta(ev, SPM)` return index of beta files that contain substring `ev`. Need to load SPM.mat before function call.ℹ  
 `query_con(ev, SPM)` return index of con files that contain string `ev`. Need to load SPM.mat before function call.ℹ  
 
-
+ℹ See `Personal_Projects` for adaptations.
 
 <a name="seg"></a>
 ## Code segments
