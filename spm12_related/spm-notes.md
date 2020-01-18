@@ -3,7 +3,8 @@
 * coordinate systems of ITK-SNAP, Display (of spm12 UI), and `spm_get_data` are consistent. 
 
 ## Be aware
-* memory settings (to be written)
+* memory settings (to be written)  
+* left/right orientation for old format images
 
 ## 1st leve analysis SPM.mat structure
 
