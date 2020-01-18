@@ -1,3 +1,5 @@
+% Note: consider using spm_detrend instead
+
 % Get Data
 [filelist,flag] = spm_select();
 data_pts = spm_get_data(filelist, [55.8 46.4 46.0]');
