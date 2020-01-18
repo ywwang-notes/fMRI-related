@@ -2,6 +2,9 @@
 
 * coordinate systems of ITK-SNAP, Display (of spm12 UI), and `spm_get_data` are consistent. 
 
+## Be aware
+* memory settings (to be written)
+
 ## 1st leve analysis SPM.mat structure
 
 ### after model specification
