@@ -1,6 +1,7 @@
 Scripts in this folder requires [spm12](https://github.com/spm/spm12). 
 Remember to `addpath spm12_folder` first (replace `spm12_folder` with the actual spm12 path).  
 See below for [simple code segments](#seg)    
+[tidbits of spm](https://github.com/ywwang-notes/fMRI-related/blob/master/spm12_related/spm-notes.md)  
 
 ## Table of Contents
 
