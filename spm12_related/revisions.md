@@ -1,4 +1,4 @@
-I revised part of the spm12 code when necessary.
+I revised part of the spm12 code for it is necessary and there's no work-arounds.
 
 ### spm_dcm_U.m
 ```
