@@ -19,6 +19,11 @@ See below for [simple code segments](#seg)
 hdr = spm_dicom_headers('filename');
 ```
 
+* Query atlas labels
+```matlab
+[l,p] = spm_atlas('query','neuromorphometrics', struct('def','sphere','spec', radius,'xyz',[x y z]'))
+```
+
 * Read and display 3D data
 ```matlab
 filename = spm_select();
