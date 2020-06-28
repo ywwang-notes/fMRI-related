@@ -22,3 +22,7 @@ See `spm_spm.m`
 ## 2nd level analysis SPM.mat
 
 `spm_contrasts.m` How con.nii and SPM.nii files are created? Search for `Write inference SPM/PPM` in this script  
+
+## DCM
+
+spm_dcm_estimate.m calls spm_detrend; thus, whether or not the time series is mean-corrected should not matter.
