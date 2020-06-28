@@ -25,4 +25,4 @@ See `spm_spm.m`
 
 ## DCM
 
-spm_dcm_estimate.m calls spm_detrend; thus, whether or not the time series is mean-corrected should not matter.
+`spm_dcm_estimate` calls `spm_detrend`; thus, whether or not the time series is mean-corrected should not matter.
